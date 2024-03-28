@@ -5,8 +5,8 @@
       "cmd-d": "editor::DuplicateLine",
       "ctrl-tab": "pane::ActivateNextItem",
       "shift-alt-up": "editor::MoveLineUp",
-      "shift-alt-down": "editor::MoveLineDown"
-      // "cmd-backspace": "editor::DeleteLine"
+      "shift-alt-down": "editor::MoveLineDown",
+      "cmd-backspace": "editor::DeleteLine"
     }
   }
 ]
