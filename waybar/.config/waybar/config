@@ -7,10 +7,10 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/workspaces",
+        "hyprland/workspaces"
     ],
     "modules-center": [
-        "sway/window"
+        "hyprland/window"
     ],
     "modules-right": [
         "mpd",
@@ -24,7 +24,7 @@
         "custom/power"
     ],
     // Modules configuration
-     "hyprland/workspaces": {
+    "hyprland/workspaces": {
          "disable-scroll": true,
          "all-outputs": true,
          "warp-on-scroll": false,
@@ -94,7 +94,7 @@
     "clock": {
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-	"format": "{:%I:%M %p}",
+	    "format": "{:%I:%M %p}",
         "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
