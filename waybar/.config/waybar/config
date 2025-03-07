@@ -16,7 +16,6 @@
         "mpd",
         "idle_inhibitor",
         "pulseaudio",
-        "keyboard-state",
         "battery",
         "battery#bat2",
         "clock",
