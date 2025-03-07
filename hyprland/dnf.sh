@@ -1,3 +1,3 @@
 #!/bin/bash
 
-dnf -y install hyprlock hyprpaper
+dnf -y install hyprland hyprlock hyprpaper 
