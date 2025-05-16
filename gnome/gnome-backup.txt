@@ -1,0 +1,440 @@
+[GWeather4]
+temperature-unit='centigrade'
+
+[Klotski]
+level=0
+window-height=500
+window-is-maximized=false
+window-width=600
+
+[LightsOff]
+window-height=600
+window-is-maximized=false
+window-width=800
+
+[Robots]
+window-height=566
+window-width=720
+
+[TextEditor]
+restore-session=false
+
+[Totem]
+active-plugins=['screenshot', 'movie-properties', 'screensaver', 'rotation', 'save-file', 'autoload-subtitles', 'recent', 'open-directory', 'vimeo', 'variable-rate', 'skipto', 'apple-trailers', 'mpris']
+subtitle-encoding='UTF-8'
+
+[Weather]
+locations=[<(uint32 2, <('The Hague', 'EHRD', false, [(0.9066985464110543, 0.077667151713747662)], [(0.9066985464110543, 0.077667151713747662)])>)>, <(uint32 2, <('Amsterdam', 'EHAM', true, [(0.91280719879303418, 0.083194033496160544)], [(0.91402892926943036, 0.085346600422522706)])>)>]
+
+[boxes]
+first-run=false
+view='icon-view'
+window-maximized=true
+
+[calendar]
+active-view='month'
+window-maximized=false
+window-size=(1699, 816)
+
+[cheese]
+burst-delay=1000
+camera='HD Pro Webcam C920 (V4L2)'
+photo-x-resolution=1920
+photo-y-resolution=1080
+video-x-resolution=1920
+video-y-resolution=1080
+
+[clocks]
+world-clocks=[{'location': <(uint32 2, <('Guatemala', 'MGGT', true, [(0.25452717676474218, -1.579813867081298)], [(0.25518652724956065, -1.5799932345685255)])>)>}]
+
+[clocks/state/window]
+maximized=false
+panel-id='world'
+size=(870, 690)
+
+[control-center]
+last-panel='keyboard'
+window-state=(980, 640, false)
+
+[desktop/app-folders]
+folder-children=['Utilities', 'YaST', 'd27d92ed-a69d-4649-bf0c-5aac5faefdff']
+
+[desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[desktop/app-folders/folders/d27d92ed-a69d-4649-bf0c-5aac5faefdff]
+apps=['org.gnome.TwentyFortyEight.desktop', 'org.gnome.Chess.desktop', 'org.gnome.five-or-more.desktop', 'org.gnome.Four-in-a-row.desktop', 'org.gnome.Klotski.desktop', 'org.gnome.Hitori.desktop', 'org.gnome.LightsOff.desktop', 'org.gnome.Mahjongg.desktop', 'org.gnome.Mines.desktop', 'org.gnome.Nibbles.desktop', 'org.gnome.Quadrapassel.desktop', 'org.gnome.Reversi.desktop', 'org.gnome.Robots.desktop', 'org.gnome.Sudoku.desktop', 'org.gnome.SwellFoop.desktop', 'org.gnome.Tali.desktop', 'org.gnome.Taquin.desktop', 'org.gnome.Tetravex.desktop', 'sol.desktop']
+name='Games'
+
+[desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/gnome/blobs-l.svg'
+picture-uri-dark='file:///usr/share/backgrounds/gnome/blobs-d.svg'
+primary-color='#241f31'
+secondary-color='#000000'
+
+[desktop/input-sources]
+current=uint32 0
+sources=[('xkb', 'us')]
+xkb-options=['compose:rctrl']
+
+[desktop/interface]
+clock-format='12h'
+color-scheme='prefer-dark'
+font-antialiasing='grayscale'
+font-hinting='slight'
+
+[desktop/notifications]
+application-children=['-filendesktop', 'gnome-power-panel', 'brave-browser', 'spotify', 'org-gnome-software', 'steam', 'org-gnome-evolution-alarm-notify', 'proton-mail', 'com-mitchellh-ghostty', 'zoom', 'com-nextcloud-desktopclient-nextcloud', 'org-gnome-settings', 'org-gnome-texteditor', 'org-gnome-shell-extensions-gsconnect', 'org-gnome-fileroller', 'org-gnome-boxes', 'org-gnome-characters', 'app-zen-browser-zen', 'org-gnome-nautilus', 'org-gnome-shell-extensions-gsconnect-preferences']
+show-banners=true
+
+[desktop/notifications/application/-filendesktop]
+application-id='@filendesktop.desktop'
+
+[desktop/notifications/application/app-zen-browser-zen]
+application-id='app.zen_browser.zen.desktop'
+
+[desktop/notifications/application/brave-browser]
+application-id='brave-browser.desktop'
+
+[desktop/notifications/application/com-mitchellh-ghostty]
+application-id='com.mitchellh.ghostty.desktop'
+
+[desktop/notifications/application/com-nextcloud-desktopclient-nextcloud]
+application-id='com.nextcloud.desktopclient.nextcloud.desktop'
+
+[desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[desktop/notifications/application/org-gnome-boxes]
+application-id='org.gnome.Boxes.desktop'
+
+[desktop/notifications/application/org-gnome-characters]
+application-id='org.gnome.Characters.desktop'
+
+[desktop/notifications/application/org-gnome-evolution-alarm-notify]
+application-id='org.gnome.Evolution-alarm-notify.desktop'
+
+[desktop/notifications/application/org-gnome-fileroller]
+application-id='org.gnome.FileRoller.desktop'
+
+[desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[desktop/notifications/application/org-gnome-settings]
+application-id='org.gnome.Settings.desktop'
+
+[desktop/notifications/application/org-gnome-shell-extensions-gsconnect-preferences]
+application-id='org.gnome.Shell.Extensions.GSConnect.Preferences.desktop'
+
+[desktop/notifications/application/org-gnome-shell-extensions-gsconnect]
+application-id='org.gnome.Shell.Extensions.GSConnect.desktop'
+
+[desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[desktop/notifications/application/org-gnome-texteditor]
+application-id='org.gnome.TextEditor.desktop'
+
+[desktop/notifications/application/proton-mail]
+application-id='proton-mail.desktop'
+
+[desktop/notifications/application/spotify]
+application-id='spotify.desktop'
+enable=false
+enable-sound-alerts=false
+show-banners=false
+
+[desktop/notifications/application/steam]
+application-id='steam.desktop'
+
+[desktop/notifications/application/zoom]
+application-id='Zoom.desktop'
+
+[desktop/privacy]
+report-technical-problems=true
+
+[desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/gnome/blobs-l.svg'
+primary-color='#241f31'
+secondary-color='#000000'
+
+[desktop/search-providers]
+sort-order=['org.gnome.Contacts.desktop', 'org.gnome.Documents.desktop', 'org.gnome.Nautilus.desktop']
+
+[desktop/session]
+idle-delay=uint32 900
+
+[desktop/sound]
+event-sounds=true
+theme-name='__custom'
+
+[desktop/wm/keybindings]
+activate-window-menu=@as []
+move-to-workspace-down=@as []
+move-to-workspace-last=['<Shift><Super>Delete']
+move-to-workspace-up=@as []
+switch-to-workspace-1=['<Shift><Super>1']
+switch-to-workspace-2=['<Shift><Super>2']
+switch-to-workspace-3=['<Shift><Super>3']
+switch-to-workspace-4=['<Shift><Super>4']
+switch-to-workspace-down=['<Primary><Super>Down', '<Primary><Super>j']
+switch-to-workspace-up=['<Primary><Super>Up', '<Primary><Super>k']
+
+[desktop/wm/preferences]
+num-workspaces=5
+
+[evince/default]
+window-ratio=(1.9938856413357524, 1.2447738502470544)
+
+[evolution-data-server]
+migrated=true
+
+[evolution-data-server/calendar]
+notify-window-height=281
+notify-window-paned-position=73
+notify-window-width=748
+notify-window-x=26
+notify-window-y=23
+reminders-past=['84a3040cebdeab4e5b7de73bf8ee105aabffbddc\n869a39ab55610aff559009bbbdda92388a1a52fe\n1747252800\n1747252800\n1747252800\nBEGIN:VTODO\r\nCREATED:20250331T061546Z\r\nDTSTAMP:20250507T203403Z\r\nDTSTART;TZID=Europe/Amsterdam:20250514T220000\r\nDUE;TZID=Europe/Amsterdam:20250514T220000\r\nLAST-MODIFIED:20250507T202549Z\r\nRRULE:FREQ=WEEKLY\r\nSTATUS:NEEDS-ACTION\r\nSUMMARY:Sacar la basura\r\nUID:DB21EDAE-FB96-4E0A-A5AE-492323DD08D0\r\nX-EVOLUTION-CALDAV-ETAG:f5565dedd595ecee2b7e79b165d0dd0f\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:Reminder\r\nTRIGGER;VALUE=DATE-TIME:20250514T200000Z\r\nUID:BB9BC157-762B-4268-B442-0350C7E81680\r\nX-WR-ALARMUID:BB9BC157-762B-4268-B442-0350C7E81680\r\nX-EVOLUTION-ALARM-UID:869a39ab55610aff559009bbbdda92388a1a52fe\r\nEND:VALARM\r\nEND:VTODO\r\n', '7c80c8f0e2645e1a8b256d2fdaf47743bc6fc067\n559fb42fc0d0962a916fa82e516995b5a56a994c\t20250512T200000\n1747072500\n1747072800\n1747080000\nBEGIN:VEVENT\r\nCREATED:20250328T204838Z\r\nDESCRIPTION:----( Llamada de video )----\\nhttps:\r\n //us06web.zoom.us/j/86541312356?pwd=dgslN0UmMHpfUwbcdlYRL6taLgb48h.1\\n---=\r\n ==---\r\nDTEND;TZID=Europe/Amsterdam:20250331T220000\r\nDTSTAMP:20250504T195448Z\r\nDTSTART;TZID=Europe/Amsterdam:20250331T200000\r\nEXDATE;TZID=Europe/Amsterdam:20250421T200000\r\nEXDATE;TZID=Europe/Amsterdam:20250505T200000\r\nLAST-MODIFIED:20250504T195448Z\r\nRRULE:FREQ=WEEKLY;UNTIL=20250526T180000Z\r\nSEQUENCE:0\r\nSUMMARY:Clase Dutch\r\nTRANSP:OPAQUE\r\nUID:68557D9F-4008-420E-A7BC-0A5C026BB662\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for URL property. \r\n Removing entire property:\r\nX-APPLE-CREATOR-IDENTITY:com.apple.mobilecal\r\nX-APPLE-CREATOR-TEAM-IDENTITY:0000000000\r\nX-EVOLUTION-CALDAV-ETAG:ab58d03d422992c433191863d653d762\r\nBEGIN:VALARM\r\nACKNOWLEDGED:20250428T194041Z\r\nACTION:DISPLAY\r\nDESCRIPTION:Recordatorio\r\nTRIGGER:-PT5M\r\nUID:A61A892D-38AB-4216-917E-8407A77AF638\r\nX-WR-ALARMUID:A61A892D-38AB-4216-917E-8407A77AF638\r\nX-EVOLUTION-ALARM-UID:559fb42fc0d0962a916fa82e516995b5a56a994c\r\nEND:VALARM\r\nEND:VEVENT\r\n', '84a3040cebdeab4e5b7de73bf8ee105aabffbddc\ne7b9acaef1f12ebba501cf9a5c26e0e2af96d1be\t20250511T170001\n1746975601\n1746975601\n1746975601\nBEGIN:VTODO\r\nDTSTAMP:20250511T171927Z\r\nUID:3D2BC3AC-5D4A-4B82-AF3D-F86965D280AC\r\nSEQUENCE:1\r\nCREATED:20250505T130723Z\r\nLAST-MODIFIED:20250511T152936Z\r\nSUMMARY:Revisar tareas Dutch\r\nSTATUS:COMPLETED\r\nDUE;TZID=Europe/Amsterdam:20250511T170001\r\nCOMPLETED:20250505T130723Z\r\nPERCENT-COMPLETE:100\r\nX-EVOLUTION-CALDAV-ETAG:4fc5b8c216dd384e01ec0eaba92a4658\r\nBEGIN:VALARM\r\nTRIGGER;RELATED=END:PT0S\r\nACTION:DISPLAY\r\nDESCRIPTION:Default Tasks.org description\r\nX-EVOLUTION-ALARM-UID:e7b9acaef1f12ebba501cf9a5c26e0e2af96d1be\r\nEND:VALARM\r\nEND:VTODO\r\n', '84a3040cebdeab4e5b7de73bf8ee105aabffbddc\n347c75ab9e5af2ed7169d1889b9d886dbc8af712\t20250511T170001\n1746975601\n1746975601\n1746975601\nBEGIN:VTODO\r\nDTSTAMP:20250511T171927Z\r\nUID:C95FDCD0-B800-4453-B613-676AA288E05E\r\nSEQUENCE:1\r\nCREATED:20250504T163945Z\r\nLAST-MODIFIED:20250511T152936Z\r\nSUMMARY:YNAB reconcile\r\nSTATUS:COMPLETED\r\nDUE;TZID=Europe/Amsterdam:20250511T170001\r\nCOMPLETED:20250504T163945Z\r\nPERCENT-COMPLETE:100\r\nX-EVOLUTION-CALDAV-ETAG:119c4c5539e238a52391152b400dc611\r\nBEGIN:VALARM\r\nTRIGGER;RELATED=END:PT0S\r\nACTION:DISPLAY\r\nDESCRIPTION:Default Tasks.org description\r\nX-EVOLUTION-ALARM-UID:347c75ab9e5af2ed7169d1889b9d886dbc8af712\r\nEND:VALARM\r\nEND:VTODO\r\n', '84a3040cebdeab4e5b7de73bf8ee105aabffbddc\n2c79f04a500e96816556286758564876d8acd863\n1746975600\n1747580400\n1747580400\nBEGIN:VTODO\r\nCREATED:20250330T072451Z\r\nDTSTAMP:20250504T163946Z\r\nDTSTART;TZID=Europe/Amsterdam:20250518T170000\r\nDUE;TZID=Europe/Amsterdam:20250518T170000\r\nLAST-MODIFIED:20250504T163945Z\r\nRRULE:FREQ=WEEKLY\r\nSTATUS:NEEDS-ACTION\r\nSUMMARY:YNAB reconcile\r\nUID:EBF59C31-65FB-4F54-821C-A39F3FB010B4\r\nX-EVOLUTION-CALDAV-ETAG:0293ba69414ba14d5bacd089745110e5\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:Reminder\r\nTRIGGER;VALUE=DATE-TIME:20250511T150000Z\r\nUID:75F6691B-CBD0-4BBB-B4BD-9F612119B305\r\nX-WR-ALARMUID:75F6691B-CBD0-4BBB-B4BD-9F612119B305\r\nX-EVOLUTION-ALARM-UID:2c79f04a500e96816556286758564876d8acd863\r\nEND:VALARM\r\nEND:VTODO\r\n', '84a3040cebdeab4e5b7de73bf8ee105aabffbddc\n37eef2cc769fa07a5d8a6c89547e89298528a1b6\n1746975600\n1747580400\n1747580400\nBEGIN:VTODO\r\nCREATED:20250330T072411Z\r\nDTSTAMP:20250505T145759Z\r\nDTSTART;TZID=Europe/Amsterdam:20250518T170000\r\nDUE;TZID=Europe/Amsterdam:20250518T170000\r\nLAST-MODIFIED:20250505T130723Z\r\nRRULE:FREQ=WEEKLY\r\nSTATUS:NEEDS-ACTION\r\nSUMMARY:Revisar tareas Dutch\r\nUID:613345D1-B248-47C9-A627-9E20CF1971E2\r\nX-EVOLUTION-CALDAV-ETAG:24855b5d3d4e071207805d71b319d605\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:Reminder\r\nTRIGGER;VALUE=DATE-TIME:20250511T150000Z\r\nUID:1F0A6EA4-4BD1-459A-8DC2-4AC359559C75\r\nX-WR-ALARMUID:1F0A6EA4-4BD1-459A-8DC2-4AC359559C75\r\nX-EVOLUTION-ALARM-UID:37eef2cc769fa07a5d8a6c89547e89298528a1b6\r\nEND:VALARM\r\nEND:VTODO\r\n', '84a3040cebdeab4e5b7de73bf8ee105aabffbddc\ne2ae38d2607d1b5d0a722f97b20a3d89a29999d6\n1746783000\n1746783000\n1746783000\nBEGIN:VTODO\r\nCREATED:20250507T083227Z\r\nDTSTAMP:20250508T185951Z\r\nDTSTART;TZID=Europe/Amsterdam:20250509T113000\r\nDUE;TZID=Europe/Amsterdam:20250509T113000\r\nLAST-MODIFIED:20250508T185951Z\r\nSTATUS:NEEDS-ACTION\r\nSUMMARY:Entradas Bad Bunny\r\nUID:B0BFCBC3-A34A-4220-8FB2-8F71E8DAB95C\r\nX-EVOLUTION-CALDAV-ETAG:0b4b3b31528fe1af50eb1bc4286cf641\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:Reminder\r\nTRIGGER;VALUE=DATE-TIME:20250509T093000Z\r\nUID:F2D52E60-E415-4C0E-8A30-AA7966AC2B55\r\nX-WR-ALARMUID:F2D52E60-E415-4C0E-8A30-AA7966AC2B55\r\nX-EVOLUTION-ALARM-UID:e2ae38d2607d1b5d0a722f97b20a3d89a29999d6\r\nEND:VALARM\r\nEND:VTODO\r\n', '84a3040cebdeab4e5b7de73bf8ee105aabffbddc\n9abb19a9168768c07132aaaac72ffc385afb7546\n1746370800\n1746975600\n1746975600\nBEGIN:VTODO\r\nCREATED:20250330T072411Z\r\nDTSTAMP:20250427T170638Z\r\nDTSTART;TZID=Europe/Amsterdam:20250511T170000\r\nDUE;TZID=Europe/Amsterdam:20250511T170000\r\nLAST-MODIFIED:20250427T170638Z\r\nRRULE:FREQ=WEEKLY\r\nSTATUS:NEEDS-ACTION\r\nSUMMARY:Revisar tareas Dutch\r\nUID:613345D1-B248-47C9-A627-9E20CF1971E2\r\nX-EVOLUTION-CALDAV-ETAG:6970ded5ee8b4b6f71a8c0742092f986\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:Reminder\r\nTRIGGER;VALUE=DATE-TIME:20250504T150000Z\r\nUID:372F48D8-1129-4633-8C42-CAB626F0D52E\r\nX-WR-ALARMUID:372F48D8-1129-4633-8C42-CAB626F0D52E\r\nX-EVOLUTION-ALARM-UID:9abb19a9168768c07132aaaac72ffc385afb7546\r\nEND:VALARM\r\nEND:VTODO\r\n', '84a3040cebdeab4e5b7de73bf8ee105aabffbddc\n707cfe10b734c267eb868437f2964d5fb2239bc2\n1746370800\n1746975600\n1746975600\nBEGIN:VTODO\r\nCREATED:20250330T072451Z\r\nDTSTAMP:20250427T170639Z\r\nDTSTART;TZID=Europe/Amsterdam:20250511T170000\r\nDUE;TZID=Europe/Amsterdam:20250511T170000\r\nLAST-MODIFIED:20250427T170638Z\r\nRRULE:FREQ=WEEKLY\r\nSTATUS:NEEDS-ACTION\r\nSUMMARY:YNAB reconcile\r\nUID:EBF59C31-65FB-4F54-821C-A39F3FB010B4\r\nX-EVOLUTION-CALDAV-ETAG:01e8ec0b1e39e55301d6647950e29ee5\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:Reminder\r\nTRIGGER;VALUE=DATE-TIME:20250504T150000Z\r\nUID:6A7BD1C0-5466-47B5-BB16-F1E12204F253\r\nX-WR-ALARMUID:6A7BD1C0-5466-47B5-BB16-F1E12204F253\r\nX-EVOLUTION-ALARM-UID:707cfe10b734c267eb868437f2964d5fb2239bc2\r\nEND:VALARM\r\nEND:VTODO\r\n']
+
+[evolution]
+default-task-list='84a3040cebdeab4e5b7de73bf8ee105aabffbddc'
+version='3.46.4'
+
+[evolution/addressbook]
+primary-addressbook='286a7ec48d0d562772b18bfe01bdc1113c2f2378'
+
+[evolution/calendar]
+allow-direct-summary-edit=false
+confirm-purge=true
+date-navigator-pane-position=167
+editor-show-timezone=true
+hpane-position=373
+memo-vpane-position=294
+primary-calendar='4788d3c767d55ea64ea55964f7b58b7a6f5bd512'
+primary-memos='system-memo-list'
+primary-tasks='84a3040cebdeab4e5b7de73bf8ee105aabffbddc'
+tag-vpane-position=0.0027247956403270157
+task-vpane-position=294
+time-divisions=30
+week-start-day-name='monday'
+work-day-friday=true
+work-day-monday=true
+work-day-saturday=false
+work-day-sunday=false
+work-day-thursday=true
+work-day-tuesday=true
+work-day-wednesday=true
+year-vpreview-position=296
+
+[evolution/mail]
+browser-close-on-reply-policy='ask'
+forward-style-name='attached'
+image-loading-policy='never'
+paned-size=1128065
+reply-style-name='quoted'
+to-do-bar-width=1172995
+
+[evolution/shell]
+default-component-id='calendar'
+folder-bar-width=259
+start-offline=false
+
+[evolution/shell/window]
+height=743
+maximized=false
+width=1606
+x=26
+y=23
+
+[file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=600
+
+[five-or-more]
+size=1
+window-height=639
+window-is-maximized=false
+window-width=752
+
+[libgnomekbd/preview]
+height=611
+width=1464
+x=240
+y=135
+
+[mutter]
+dynamic-workspaces=true
+edge-tiling=false
+workspaces-only-on-primary=false
+
+[nautilus/preferences]
+default-folder-viewer='list-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+
+[nautilus/window-state]
+initial-size=(1062, 682)
+
+[nm-applet/eap/c166fecb-200c-4688-b2f2-58841b9d1e99]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[portal/filechooser/app.zen_browser.zen]
+last-folder-path='/home/fita/Downloads'
+
+[settings-daemon/plugins/color]
+night-light-enabled=false
+night-light-last-coordinates=(52.349601439884815, 4.9041399999999999)
+
+[settings-daemon/plugins/media-keys]
+next=['F9']
+play=['F8']
+previous=['F7']
+rotate-video-lock-static=@as []
+terminal=['<Super>t']
+
+[settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=7200
+
+[shell]
+app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Weather.desktop': <{'position': <1>}>, 'org.gnome.clocks.desktop': <{'position': <2>}>, 'org.gnome.Maps.desktop': <{'position': <3>}>, 'org.gnome.Totem.desktop': <{'position': <4>}>, 'org.gnome.Calculator.desktop': <{'position': <5>}>, '1password.desktop': <{'position': <6>}>, 'd27d92ed-a69d-4649-bf0c-5aac5faefdff': <{'position': <7>}>, 'simple-scan.desktop': <{'position': <8>}>, 'org.gnome.Settings.desktop': <{'position': <9>}>, 'gnome-system-monitor.desktop': <{'position': <10>}>, 'brave-browser.desktop': <{'position': <11>}>, 'org.gnome.Terminal.desktop': <{'position': <12>}>, 'org.gnome.Calendar.desktop': <{'position': <13>}>, 'Utilities': <{'position': <14>}>, 'yelp.desktop': <{'position': <15>}>, 'org.gnome.Evolution.desktop': <{'position': <16>}>, 'org.gnome.Cheese.desktop': <{'position': <17>}>, 'org.gnome.Extensions.desktop': <{'position': <18>}>, '@filendesktop.desktop': <{'position': <19>}>, 'org.gnome.Nautilus.desktop': <{'position': <20>}>, 'firefox-esr.desktop': <{'position': <21>}>}, {'com.mitchellh.ghostty.desktop': <{'position': <0>}>, 'im-config.desktop': <{'position': <1>}>, 'libreoffice-calc.desktop': <{'position': <2>}>, 'libreoffice-draw.desktop': <{'position': <3>}>, 'libreoffice-impress.desktop': <{'position': <4>}>, 'libreoffice-startcenter.desktop': <{'position': <5>}>, 'libreoffice-writer.desktop': <{'position': <6>}>, 'localsend_app.desktop': <{'position': <7>}>, 'Magic The Gathering Arena.desktop': <{'position': <8>}>, 'org.gnome.Music.desktop': <{'position': <9>}>, 'obsidian.desktop': <{'position': <10>}>, 'proton-mail.desktop': <{'position': <11>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <12>}>}, {'shotwell.desktop': <{'position': <0>}>, 'org.gnome.Software.desktop': <{'position': <1>}>, 'software-properties-gtk.desktop': <{'position': <2>}>, 'org.gnome.SoundRecorder.desktop': <{'position': <3>}>, 'steam.desktop': <{'position': <4>}>, 'synaptic.desktop': <{'position': <5>}>, 'org.gnome.TextEditor.desktop': <{'position': <6>}>, 'transmission-gtk.desktop': <{'position': <7>}>}]
+disable-user-extensions=false
+disabled-extensions=['window-list@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['nightthemeswitcher@romainvigier.fr', 'tilingshell@ferrarodomenico.com', 'tilingnome@rliang.github.com', 'material-shell@papyelgringo', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'pop-shell@system76.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'fullscreen-to-empty-workspace@aiono.dev', 'gsconnect@andyholmes.github.io', 'caffeine@patapon.info', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'space-bar@luchrioh', 'switcher@landau.fi']
+favorite-apps=['brave-browser.desktop', 'com.mitchellh.ghostty.desktop', 'app.zen_browser.zen.desktop']
+last-selected-power-profile='power-saver'
+remember-mount-password=false
+welcome-dialog-last-shown-version='43.9'
+
+[shell/extensions/auto-move-windows]
+application-list=['brave-browser.desktop:1', 'com.mitchellh.ghostty.desktop:2']
+
+[shell/extensions/caffeine]
+duration-timer=2
+enable-fullscreen=false
+indicator-position-max=2
+
+[shell/extensions/gsconnect]
+devices=['15806517_fa33_4f6f_bb46_9990cd54ab55']
+enabled=true
+name='elepantus'
+
+[shell/extensions/gsconnect/device/15806517_fa33_4f6f_bb46_9990cd54ab55]
+certificate-pem='-----BEGIN CERTIFICATE-----\nMIIBlDCCATmgAwIBAgIBCjAKBggqhkjOPQQDBDBTMRQwEgYDVQQLDAtLZGUgY29u\nbmVjdDEMMAoGA1UECgwDS0RFMS0wKwYDVQQDDCQxNTgwNjUxN19mYTMzXzRmNmZf\nYmI0Nl85OTkwY2Q1NGFiNTUwHhcNMjQwNDIyMTUyMjI0WhcNMzUwNDIwMTUyMjI0\nWjBTMRQwEgYDVQQLDAtLZGUgY29ubmVjdDEMMAoGA1UECgwDS0RFMS0wKwYDVQQD\nDCQxNTgwNjUxN19mYTMzXzRmNmZfYmI0Nl85OTkwY2Q1NGFiNTUwWTATBgcqhkjO\nPQIBBggqhkjOPQMBBwNCAASc23u0b1q1vo5a1WraAWSxnFVcVDUFx7byFI1tcXJy\nB5ioeYLoYFaJoo/Uh0Pf1tjD9l2bEP5/4E7zESD0vGdLMAoGCCqGSM49BAMEA0kA\nMEYCIQCD9jq5Hj6GfT/BssCyPsBWHttu6XNKH+3/fFNSbfD+EwIhANjGqMg2Kvak\njlCk6WLM0QEP7pdB3koo0O0ESgvHrARs\n-----END CERTIFICATE-----\n'
+incoming-capabilities=['kdeconnect.battery', 'kdeconnect.battery.request', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.findmyphone.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.share.request', 'kdeconnect.share.request.update']
+last-connection='lan://192.168.178.194:1716'
+name='iPhone de Rafa'
+outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.battery.request', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.request', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update']
+paired=true
+supported-plugins=['battery', 'clipboard', 'findmyphone', 'mousepad', 'ping', 'presenter', 'runcommand', 'share']
+type='phone'
+
+[shell/extensions/gsconnect/device/15806517_fa33_4f6f_bb46_9990cd54ab55/plugin/battery]
+custom-battery-notification-value=uint32 80
+
+[shell/extensions/gsconnect/device/15806517_fa33_4f6f_bb46_9990cd54ab55/plugin/clipboard]
+receive-content=true
+send-content=true
+
+[shell/extensions/gsconnect/device/15806517_fa33_4f6f_bb46_9990cd54ab55/plugin/notification]
+applications='{"Printers":{"iconName":"org.gnome.Settings-printers-symbolic","enabled":true},"Evolution Alarm Notify":{"iconName":"appointment-soon","enabled":true},"Software":{"iconName":"org.gnome.Software","enabled":true},"Disks":{"iconName":"org.gnome.DiskUtility","enabled":true},"Date & Time":{"iconName":"org.gnome.Settings-time-symbolic","enabled":true},"Timeshift":{"iconName":"timeshift","enabled":true},"Network":{"iconName":"nm-device-wireless","enabled":true},"Evolution":{"iconName":"evolution","enabled":true},"Ghostty":{"iconName":"com.mitchellh.ghostty","enabled":true},"Rhythmbox":{"iconName":"org.gnome.Rhythmbox3","enabled":true},"Lutris":{"iconName":"lutris","enabled":true},"Disk Usage Analyzer":{"iconName":"org.gnome.baobab","enabled":true},"Power":{"iconName":"org.gnome.Settings-power-symbolic","enabled":true},"Color":{"iconName":"org.gnome.Settings-color-symbolic","enabled":true},"Files":{"iconName":"org.gnome.Nautilus","enabled":true},"Clocks":{"iconName":"org.gnome.clocks","enabled":true},"Archive Manager":{"iconName":"org.gnome.FileRoller","enabled":true}}'
+
+[shell/extensions/gsconnect/device/15806517_fa33_4f6f_bb46_9990cd54ab55/plugin/share]
+receive-directory='/home/fita/Downloads'
+
+[shell/extensions/gsconnect/preferences]
+window-maximized=false
+window-size=(754, 440)
+
+[shell/extensions/materialshell/theme]
+theme='dark'
+
+[shell/extensions/nightthemeswitcher/gtk-variants]
+night='Adwaita-dark'
+
+[shell/extensions/nightthemeswitcher/time]
+location=(52.349601439884815, 4.9041399999999999)
+nightthemeswitcher-ondemand-keybinding=['<Shift><Super>t']
+sunrise=6.1073073273622569
+sunset=21.118701906609182
+
+[shell/extensions/pop-shell]
+tile-by-default=true
+
+[shell/extensions/space-bar/behavior]
+always-show-numbers=false
+indicator-style='workspaces-bar'
+show-empty-workspaces=true
+smart-workspace-names=false
+toggle-overview=true
+
+[shell/extensions/switcher]
+activate-after-ms=uint32 0
+activate-by-key=uint32 2
+font-size=uint32 25
+icon-size=uint32 25
+launcher-stats='{"brave-browser.desktop":3,"com.mitchellh.ghostty.desktop":12,"org.gnome.Terminal.desktop":1,"org.gnome.tweaks.desktop":1,"timeshift-gtk.desktop":1}'
+max-width-percentage=uint32 30
+show-switcher=['<Alt>space']
+
+[shell/extensions/tilingshell]
+last-version-name-installed='16.3'
+layouts-json='[{"id":"Layout 1","tiles":[{"x":0,"y":0,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0,"y":0.5,"width":0.22,"height":0.5,"groups":[1,2]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[2,3]},{"x":0.78,"y":0,"width":0.22,"height":0.5,"groups":[3,4]},{"x":0.78,"y":0.5,"width":0.22,"height":0.5,"groups":[3,4]}]},{"id":"Layout 2","tiles":[{"x":0,"y":0,"width":0.22,"height":1,"groups":[1]},{"x":0.22,"y":0,"width":0.56,"height":1,"groups":[1,2]},{"x":0.78,"y":0,"width":0.22,"height":1,"groups":[2]}]},{"id":"Layout 3","tiles":[{"x":0,"y":0,"width":0.33,"height":1,"groups":[1]},{"x":0.33,"y":0,"width":0.67,"height":1,"groups":[1]}]},{"id":"Layout 4","tiles":[{"x":0,"y":0,"width":0.67,"height":1,"groups":[1]},{"x":0.67,"y":0,"width":0.33,"height":1,"groups":[1]}]}]'
+overridden-settings='{}'
+selected-layouts=[['Layout 1'], ['Layout 1']]
+
+[shell/keybindings]
+switch-to-application-1=['<Super>1']
+switch-to-application-2=['<Super>2']
+switch-to-application-3=['<Super>3']
+switch-to-application-4=['<Super>4']
+switch-to-application-5=['<Super>5']
+switch-to-application-6=['<Super>6']
+switch-to-application-7=['<Super>7']
+switch-to-application-8=['<Super>8']
+switch-to-application-9=['<Super>9']
+
+[shell/weather]
+automatic-location=true
+locations=[<(uint32 2, <('The Hague', 'EHRD', false, [(0.9066985464110543, 0.077667151713747662)], [(0.9066985464110543, 0.077667151713747662)])>)>, <(uint32 2, <('Amsterdam', 'EHAM', true, [(0.91280719879303418, 0.083194033496160544)], [(0.91402892926943036, 0.085346600422522706)])>)>]
+
+[shell/world-clocks]
+locations=[<(uint32 2, <('Guatemala', 'MGGT', true, [(0.25452717676474218, -1.579813867081298)], [(0.25518652724956065, -1.5799932345685255)])>)>]
+
+[software]
+check-timestamp=int64 1747405168
+first-run=false
+install-timestamp=int64 1746790091
+online-updates-timestamp=int64 1747405199
+update-notification-timestamp=int64 1746805616
+
+[system/location]
+enabled=true
+
+[terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+palette=['rgb(23,20,33)', 'rgb(192,28,40)', 'rgb(38,162,105)', 'rgb(162,115,76)', 'rgb(18,72,139)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,209,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+
+[todo]
+default-provider='owncloud@account_1743257328_1'
+window-maximized=true
