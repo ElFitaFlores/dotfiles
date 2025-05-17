@@ -53,7 +53,7 @@ panel-id='world'
 size=(870, 690)
 
 [control-center]
-last-panel='keyboard'
+last-panel='multitasking'
 window-state=(980, 640, false)
 
 [desktop/app-folders]
@@ -89,7 +89,8 @@ xkb-options=['compose:rctrl']
 
 [desktop/interface]
 clock-format='12h'
-color-scheme='prefer-dark'
+color-scheme='default'
+enable-hot-corners=false
 font-antialiasing='grayscale'
 font-hinting='slight'
 
@@ -322,7 +323,7 @@ app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnom
 disable-user-extensions=false
 disabled-extensions=['window-list@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com']
 enabled-extensions=['nightthemeswitcher@romainvigier.fr', 'tilingshell@ferrarodomenico.com', 'tilingnome@rliang.github.com', 'material-shell@papyelgringo', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'pop-shell@system76.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'fullscreen-to-empty-workspace@aiono.dev', 'gsconnect@andyholmes.github.io', 'caffeine@patapon.info', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'space-bar@luchrioh', 'switcher@landau.fi']
-favorite-apps=['brave-browser.desktop', 'com.mitchellh.ghostty.desktop', 'app.zen_browser.zen.desktop']
+favorite-apps=['brave-browser.desktop', 'com.mitchellh.ghostty.desktop']
 last-selected-power-profile='power-saver'
 remember-mount-password=false
 welcome-dialog-last-shown-version='43.9'
@@ -376,8 +377,8 @@ night='Adwaita-dark'
 [shell/extensions/nightthemeswitcher/time]
 location=(52.349601439884815, 4.9041399999999999)
 nightthemeswitcher-ondemand-keybinding=['<Shift><Super>t']
-sunrise=6.1073073273622569
-sunset=21.118701906609182
+sunrise=6.1042215003740026
+sunset=21.121904051820209
 
 [shell/extensions/pop-shell]
 tile-by-default=true
@@ -394,7 +395,7 @@ activate-after-ms=uint32 0
 activate-by-key=uint32 2
 font-size=uint32 25
 icon-size=uint32 25
-launcher-stats='{"brave-browser.desktop":3,"com.mitchellh.ghostty.desktop":12,"org.gnome.Terminal.desktop":1,"org.gnome.tweaks.desktop":1,"timeshift-gtk.desktop":1}'
+launcher-stats='{"brave-browser.desktop":4,"com.mitchellh.ghostty.desktop":14,"org.gnome.Terminal.desktop":2,"org.gnome.tweaks.desktop":1,"timeshift-gtk.desktop":1,"org.gnome.Settings.desktop":1}'
 max-width-percentage=uint32 30
 show-switcher=['<Alt>space']
 
@@ -423,7 +424,7 @@ locations=[<(uint32 2, <('The Hague', 'EHRD', false, [(0.9066985464110543, 0.077
 locations=[<(uint32 2, <('Guatemala', 'MGGT', true, [(0.25452717676474218, -1.579813867081298)], [(0.25518652724956065, -1.5799932345685255)])>)>]
 
 [software]
-check-timestamp=int64 1747405168
+check-timestamp=int64 1747489497
 first-run=false
 install-timestamp=int64 1746790091
 online-updates-timestamp=int64 1747405199
