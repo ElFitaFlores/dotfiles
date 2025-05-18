@@ -1,1 +1,2 @@
 theme = dark:catppuccin-frappe, light:catppuccin-latte
+window-inherit-working-directory = false
