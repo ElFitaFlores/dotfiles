@@ -13,13 +13,13 @@
         "hyprland/window"
     ],
     "modules-right": [
-        "mpd",
+        //"mpd",
         "idle_inhibitor",
         "pulseaudio",
-        "battery",
-        "battery#bat2",
+        //"battery",
+        //"battery#bat2",
         "clock",
-        "tray",
+        //"tray",
         "custom/power"
     ],
     // Modules configuration
