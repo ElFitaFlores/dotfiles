@@ -87,6 +87,8 @@ boot.loader.efi.canTouchEfiVariables = true;
     hyprlock
     hyprpaper
     killall
+    playerctl
+    spotify
   ];
 
   programs.hyprland.enable = true;
