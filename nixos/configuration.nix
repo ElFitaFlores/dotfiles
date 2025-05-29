@@ -7,22 +7,24 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
+      /etc/nixos/hardware-configuration.nix
     ];
 
   # Bootloader.
-  boot.loader.grub.enable = true;
-  boot.loader.grub.device = "/dev/vda";
-  boot.loader.grub.useOSProber = true;
+#  boot.loader.grub.enable = true;
+#  boot.loader.grub.device = "/dev/sdb1";
+#  boot.loader.grub.useOSProber = true;
+boot.loader.systemd-boot.enable = true;
+boot.loader.efi.canTouchEfiVariables = true;
 
   # Setup keyfile
-  boot.initrd.secrets = {
-    "/boot/crypto_keyfile.bin" = null;
-  };
+#  boot.initrd.secrets = {
+#    "/boot/crypto_keyfile.bin" = null;
+#  };
 
-  boot.loader.grub.enableCryptodisk = true;
+ # boot.loader.grub.enableCryptodisk = true;
 
-  boot.initrd.luks.devices."luks-4bce4da8-2dcd-4be1-83cc-8d075951848d".keyFile = "/boot/crypto_keyfile.bin";
+ # boot.initrd.luks.devices."luks-4bce4da8-2dcd-4be1-83cc-8d075951848d".keyFile = "/boot/crypto_keyfile.bin";
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
