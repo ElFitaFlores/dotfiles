@@ -1,0 +1,31 @@
+@import "frappe.css";
+
+window#waybar {
+  color: @text;
+  background: @base;
+}
+
+
+#workspaces button {
+  color: @sapphire;
+}
+
+#workspaces button.active {
+  color: @mauve;
+}
+
+#pulseaudio {
+  color: @flamingo;
+}
+
+#idle_inhibitor {
+  color: @peach;
+}
+
+#clock {
+  color: @rosewater;
+}
+
+#custom-power {
+  color: @red;
+}
