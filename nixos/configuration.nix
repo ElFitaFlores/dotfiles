@@ -90,6 +90,8 @@ boot.loader.efi.canTouchEfiVariables = true;
     playerctl
     spotify
     localsend
+    hyprcursor
+    rose-pine-hyprcursor
   ];
 
   programs.hyprland.enable = true;
