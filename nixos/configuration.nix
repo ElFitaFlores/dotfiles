@@ -112,6 +112,7 @@ boot.loader.efi.canTouchEfiVariables = true;
   
   fonts.packages = with pkgs; [
     texlivePackages.fontawesome
+    nerd-fonts.jetbrains-mono
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
