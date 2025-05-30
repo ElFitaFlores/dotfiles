@@ -89,12 +89,14 @@ boot.loader.efi.canTouchEfiVariables = true;
     killall
     playerctl
     spotify
+    localsend
   ];
 
   programs.hyprland.enable = true;
   services.displayManager.ly.enable = true;
   programs._1password-gui.enable = true;
   programs.git.enable = true;
+  programs.steam.enable = true;
   #programs.zoxide = {
   #  enable = true;
     #enableBashIntegration= true;
@@ -124,8 +126,12 @@ boot.loader.efi.canTouchEfiVariables = true;
   # services.openssh.enable = true;
 
   # Open ports in the firewall.
-  # networking.firewall.allowedTCPPorts = [ ... ];
-  # networking.firewall.allowedUDPPorts = [ ... ];
+   networking.firewall.allowedTCPPorts = [ 
+     53317 # LocalSend
+   ];
+   networking.firewall.allowedUDPPorts = [
+     53317 # LocalSend
+   ];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
 
