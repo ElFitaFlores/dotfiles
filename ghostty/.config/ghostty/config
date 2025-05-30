@@ -1,2 +1,4 @@
-theme = dark:catppuccin-frappe, light:catppuccin-latte
+window-theme = ghostty
+theme = dark:catppuccin-frappe, light:catppuccin-frappe
 window-inherit-working-directory = false
+command = fish

@@ -92,6 +92,11 @@ boot.loader.efi.canTouchEfiVariables = true;
     localsend
     hyprcursor
     rose-pine-hyprcursor
+    fish
+    zoxide
+    protonmail-desktop
+    nautilus
+    kdePackages.okular
   ];
 
   programs.hyprland.enable = true;
