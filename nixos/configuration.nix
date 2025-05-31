@@ -95,8 +95,8 @@ boot.loader.efi.canTouchEfiVariables = true;
     fish
     zoxide
     protonmail-desktop
-    nautilus
-    kdePackages.okular
+    ranger # File manager CLI
+    kdePackages.okular # PDF viewer
   ];
 
   programs.hyprland.enable = true;
