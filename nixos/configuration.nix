@@ -97,10 +97,16 @@ boot.loader.efi.canTouchEfiVariables = true;
     protonmail-desktop
     ranger # File manager CLI
     kdePackages.okular # PDF viewer
+    nextcloud-client
+    obsidian
   ];
 
   programs.hyprland.enable = true;
-  services.displayManager.ly.enable = true;
+  services.gnome.gnome-keyring.enable = true;
+  services.displayManager.ly = {
+    enable = true;
+  };
+  security.pam.services.ly.enableGnomeKeyring = true;
   programs._1password-gui.enable = true;
   programs.git.enable = true;
   programs.steam.enable = true;
