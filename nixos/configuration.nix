@@ -14,8 +14,8 @@
 #  boot.loader.grub.enable = true;
 #  boot.loader.grub.device = "/dev/sdb1";
 #  boot.loader.grub.useOSProber = true;
-boot.loader.systemd-boot.enable = true;
-boot.loader.efi.canTouchEfiVariables = true;
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.efi.canTouchEfiVariables = true;
 
   # Setup keyfile
 #  boot.initrd.secrets = {
@@ -45,15 +45,16 @@ boot.loader.efi.canTouchEfiVariables = true;
   i18n.defaultLocale = "en_US.UTF-8";
 
   i18n.extraLocaleSettings = {
-    LC_ADDRESS = "nl_NL.UTF-8";
-    LC_IDENTIFICATION = "nl_NL.UTF-8";
-    LC_MEASUREMENT = "nl_NL.UTF-8";
-    LC_MONETARY = "nl_NL.UTF-8";
-    LC_NAME = "nl_NL.UTF-8";
-    LC_NUMERIC = "nl_NL.UTF-8";
-    LC_PAPER = "nl_NL.UTF-8";
-    LC_TELEPHONE = "nl_NL.UTF-8";
-    LC_TIME = "nl_NL.UTF-8";
+    #LC_ALL = "es_MX.UTF-8";
+    #LC_ADDRESS = "es_GT.UTF-8";
+    #LC_IDENTIFICATION = "es_GT.UTF-8";
+    #LC_MEASUREMENT = "es_GT.UTF-8";
+    #LC_MONETARY = "es_GT.UTF-8";
+    #LC_NAME = "es_GT.UTF-8";
+    #LC_NUMERIC = "es_GT.UTF-8";
+    #LC_PAPER = "es_GT.UTF-8";
+    #LC_TELEPHONE = "es_GT.UTF-8";
+    #LC_TIME = "es_GT.UTF-8";
   };
 
   # Configure keymap in X11
@@ -81,7 +82,6 @@ boot.loader.efi.canTouchEfiVariables = true;
     vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     neovim
     neofetch
-    #kitty
     ghostty
     brave
     wofi
@@ -102,6 +102,8 @@ boot.loader.efi.canTouchEfiVariables = true;
     kdePackages.okular # PDF viewer
     nextcloud-client
     obsidian
+    lutris
+    lazygit
   ];
 
   programs.hyprland.enable = true;
