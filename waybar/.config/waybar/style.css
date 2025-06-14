@@ -29,3 +29,7 @@ window#waybar {
 #custom-power {
   color: @red;
 }
+
+#network {
+  color: @peach;
+}
