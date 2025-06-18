@@ -13,3 +13,11 @@ end
 if type -q nvim
   set -gx EDITOR nvim
 end
+
+if type -q mcfly
+  mcfly init fish | source
+end
+
+if type -q mcfly-fzf
+  mcfly-fzf init fish | source
+end

@@ -29,6 +29,9 @@
     lazygit
     bat
     eza
+    mcfly
+    fzf
+    mcfly-fzf
   ];
 
   programs.hyprland.enable = true;
