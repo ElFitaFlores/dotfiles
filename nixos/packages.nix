@@ -32,6 +32,7 @@
     mcfly
     fzf
     mcfly-fzf
+    gnome-boxes
   ];
 
   programs.hyprland.enable = true;
@@ -43,4 +44,12 @@
   programs._1password-gui.enable = true;
   programs.git.enable = true;
   programs.steam.enable = true;
+
+  # Add custom packages
+  programs.nix-ld = {
+    enable = true;
+    libraries = with pkgs; [
+      edit
+    ];
+  };
  }
