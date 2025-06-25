@@ -12,6 +12,7 @@
     waybar
     hyprlock
     hyprpaper
+    hyprshot
     killall
     playerctl
     spotify
@@ -23,6 +24,7 @@
     protonmail-desktop
     ranger # File manager CLI
     kdePackages.okular # PDF viewer
+    eog # Image preview
     nextcloud-client
     obsidian
     lutris
