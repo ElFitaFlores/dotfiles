@@ -16,7 +16,6 @@
     killall
     playerctl
     spotify
-    localsend
     hyprcursor
     rose-pine-hyprcursor
     fish
@@ -46,6 +45,7 @@
   programs._1password-gui.enable = true;
   programs.git.enable = true;
   programs.steam.enable = true;
+  programs.localsend.enable = true;
 
   # Add custom packages
   programs.nix-ld = {
