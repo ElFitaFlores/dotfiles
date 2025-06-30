@@ -34,12 +34,13 @@
     fzf
     mcfly-fzf
     gnome-boxes
+    gnome-extension-manager
   ];
 
   #programs.hyprland.enable = true;
   #services.displayManager.ly.enable = true;
-  services.gnome.gnome-keyring.enable = true;
-  security.pam.services.ly.enableGnomeKeyring = true;
+  #services.gnome.gnome-keyring.enable = true;
+  #security.pam.services.ly.enableGnomeKeyring = true;
   programs._1password-gui.enable = true;
   programs.git.enable = true;
   programs.steam.enable = true;
@@ -47,11 +48,18 @@
 
   # Cosmic
   # Enable the login manager
-  services.displayManager.cosmic-greeter.enable = true;
+  #services.displayManager.cosmic-greeter.enable = true;
   # Enable the COSMIC DE itself
-  services.desktopManager.cosmic.enable = true;
+  #services.desktopManager.cosmic.enable = true;
   # Enable XWayland support in COSMIC
-  services.desktopManager.cosmic.xwayland.enable = true;
+  #services.desktopManager.cosmic.xwayland.enable = true;
+
+  # Gnome
+  services.xserver = {
+    enable = true;
+    displayManager.gdm.enable = true;
+    desktopManager.gnome.enable = true;
+  };
 
   # Add custom packages
   programs.nix-ld = {
