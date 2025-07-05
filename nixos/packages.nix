@@ -2,7 +2,7 @@
 
 {
   environment.systemPackages = with pkgs; [
-    vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+    vim
     neovim
     neofetch
     ghostty
@@ -41,17 +41,15 @@
   #services.displayManager.ly.enable = true;
   #services.gnome.gnome-keyring.enable = true;
   #security.pam.services.ly.enableGnomeKeyring = true;
+
   programs._1password-gui.enable = true;
   programs.git.enable = true;
   programs.steam.enable = true;
   programs.localsend.enable = true;
 
   # Cosmic
-  # Enable the login manager
   #services.displayManager.cosmic-greeter.enable = true;
-  # Enable the COSMIC DE itself
   #services.desktopManager.cosmic.enable = true;
-  # Enable XWayland support in COSMIC
   #services.desktopManager.cosmic.xwayland.enable = true;
 
   # Gnome

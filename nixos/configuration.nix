@@ -1,12 +1,8 @@
-# Edit this configuration file to define what should be installed on
-# your system.  Help is available in the configuration.nix(5) man page
-# and in the NixOS manual (accessible by running ‘nixos-help’).
-
 { config, pkgs, ... }:
 
 {
   imports =
-    [ # Include the results of the hardware scan.
+    [
       /etc/nixos/hardware-configuration.nix
       /etc/nixos/packages.nix
     ];
@@ -26,18 +22,13 @@
  # boot.loader.grub.enableCryptodisk = true;
 
  # boot.initrd.luks.devices."luks-4bce4da8-2dcd-4be1-83cc-8d075951848d".keyFile = "/boot/crypto_keyfile.bin";
-  networking.hostName = "nixos"; # Define your hostname.
-  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
-
-  # Configure network proxy if necessary
-  # networking.proxy.default = "http://user:password@proxy:port/";
-  # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
+  networking.hostName = "nixos";
 
   # Enable networking
   networking.networkmanager.enable = true;
 
-  hardware.bluetooth.enable = true; # enables support for Bluetooth
-  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
+  hardware.bluetooth.enable = true;
+  hardware.bluetooth.powerOnBoot = true;
 
   # Set your time zone.
   time.timeZone = "Europe/Amsterdam";
@@ -69,40 +60,16 @@
     isNormalUser = true;
     description = "Rafael";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-#      zoxide
-    ];
+    packages = with pkgs; [];
   };
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  #programs.steam.enable = true;
-  #programs.zoxide = {
-  #  enable = true;
-    #enableBashIntegration= true;
-  #};
-  
-  #programs.git = {
-  #  enable = true;
-  #  userName  = "Rafael Flores";
-  #  userEmail = "21326800+ElFitaFlores@users.noreply.github.com";
-  #};
-  
   fonts.packages = with pkgs; [
     texlivePackages.fontawesome
     nerd-fonts.jetbrains-mono
   ];
-
-  # Some programs need SUID wrappers, can be configured further or are
-  # started in user sessions.
-  # programs.mtr.enable = true;
-  # programs.gnupg.agent = {
-  #   enable = true;
-  #   enableSSHSupport = true;
-  # };
 
   # List services that you want to enable:
 
@@ -122,5 +89,4 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "25.05"; # Did you read the comment?
-
 }
