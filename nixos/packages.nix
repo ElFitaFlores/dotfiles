@@ -35,12 +35,13 @@
     mcfly-fzf
     gnome-boxes
     gnome-extension-manager
+    glib
   ];
 
-  #programs.hyprland.enable = true;
-  #services.displayManager.ly.enable = true;
-  #services.gnome.gnome-keyring.enable = true;
-  #security.pam.services.ly.enableGnomeKeyring = true;
+  programs.hyprland.enable = true;
+  services.displayManager.ly.enable = true;
+  services.gnome.gnome-keyring.enable = true;
+  security.pam.services.ly.enableGnomeKeyring = true;
 
   programs._1password-gui.enable = true;
   programs.git.enable = true;
@@ -53,12 +54,19 @@
   #services.desktopManager.cosmic.xwayland.enable = true;
 
   # Gnome
-  services.xserver = {
-    enable = true;
-    displayManager.gdm.enable = true;
-    desktopManager.gnome.enable = true;
-  };
+  #services.xserver = {
+  #  enable = true;
+  #  displayManager.gdm.enable = true;
+  #  desktopManager.gnome.enable = true;
+  #};
 
+  # KDE
+  #services = {
+  #  desktopManager.plasma6.enable = true;
+  #  displayManager.sddm.enable = true;
+  #  displayManager.sddm.wayland.enable = true;
+  #};
+  
   # Add custom packages
   programs.nix-ld = {
     enable = true;
