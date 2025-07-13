@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
 # Determine current theme mode
 mode_file="$HOME/.cache/.theme_mode"
 touch $mode_file
@@ -15,7 +16,6 @@ update_theme_mode() {
 }
 
 set_waybar_style() {
-    waybar_styles="$HOME/.config/waybar/style"
     waybar_style_link="$HOME/.config/waybar/theme.css"
     style_file="$next_mode.css"
 
@@ -27,7 +27,7 @@ set_waybar_style() {
         echo "Style file not found for $next_mode theme."
     fi
 
-    waybar &
+    waybar > /dev/null 2>&1 &
 }
 
 update_theme_mode
