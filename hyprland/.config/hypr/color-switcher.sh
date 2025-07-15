@@ -30,7 +30,21 @@ set_waybar_style() {
     waybar > /dev/null 2>&1 &
 }
 
+set_wofi_style() {
+    local path="$HOME/.config/wofi"
+    local style_link="$HOME/.config/wofi/style.css"
+    local style_file="$next_mode.css"
+
+    if [ -n "$style_file" ]; then
+	rm -f $path/style.css
+	cat $path/$next_mode.css $path/theme.css > $path/style.css 
+    else
+        echo "Style file not found for $next_mode theme."
+    fi
+}
+
 update_theme_mode
 set_waybar_style
+set_wofi_style
 
 exit 0

@@ -1,5 +1,9 @@
 @import "theme.css";
 
+* {
+  font-family: 'Inconsolata Nerd Font', monospace;
+}
+
 window#waybar {
   color: @text;
   background: @base;
