@@ -36,6 +36,7 @@
     gnome-boxes
     gnome-extension-manager
     glib
+    zed-editor
   ];
 
   programs.hyprland.enable = true;
