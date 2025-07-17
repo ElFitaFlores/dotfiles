@@ -37,6 +37,8 @@
     gnome-extension-manager
     glib
     zed-editor
+    bluetuith
+    pulsemixer
   ];
 
   programs.hyprland.enable = true;
