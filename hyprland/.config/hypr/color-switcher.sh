@@ -5,11 +5,13 @@ mode_file="$HOME/.cache/.theme_mode"
 touch $mode_file
 if [ "$(cat $mode_file)" = "light" ]; then
     next_mode="dark"
-    gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 else
     next_mode="light"
-    gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
 fi
+
+change_gnome_theme() {
+    gsettings set org.gnome.desktop.interface color-scheme "prefer-$next_mode"
+}
 
 update_theme_mode() {
     echo "$next_mode" > "$mode_file"
@@ -37,13 +39,14 @@ set_wofi_style() {
 
     if [ -n "$style_file" ]; then
 	rm -f $path/style.css
-	cat $path/$next_mode.css $path/theme.css > $path/style.css 
+	cat $path/$next_mode.css $path/theme.css > $path/style.css
     else
         echo "Style file not found for $next_mode theme."
     fi
 }
 
 update_theme_mode
+change_gnome_theme
 set_waybar_style
 set_wofi_style
 
