@@ -26,7 +26,6 @@
     eog # Image preview
     nextcloud-client
     obsidian
-    lutris
     lazygit
     bat
     eza
