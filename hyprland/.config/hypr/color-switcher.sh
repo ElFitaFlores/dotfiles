@@ -10,7 +10,7 @@ else
 fi
 
 change_gnome_theme() {
-    gsettings set org.gnome.desktop.interface color-scheme "prefer-$next_mode"
+    dconf write /org/gnome/desktop/interface/color-scheme "'prefer-$next_mode'"
 }
 
 update_theme_mode() {
