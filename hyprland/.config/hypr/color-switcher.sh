@@ -38,8 +38,8 @@ set_wofi_style() {
     local style_file="$next_mode.css"
 
     if [ -n "$style_file" ]; then
-	rm -f $path/style.css
-	cat $path/$next_mode.css $path/theme.css > $path/style.css
+    	rm -f $path/style.css
+    	cat $path/$next_mode.css $path/theme.css > $path/style.css
     else
         echo "Style file not found for $next_mode theme."
     fi
@@ -50,8 +50,6 @@ set_hyprlock_style() {
     local style_link="$path/style.conf"
     local style_file="$path/$next_mode.conf"
     
-    echo $style_file 
-
     if [ -n "$style_file" ]; then
        	ln -sf $style_file $style_link
     else
